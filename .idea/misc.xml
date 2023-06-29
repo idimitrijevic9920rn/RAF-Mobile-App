@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1654381282317.xml" value="0.375" />
+        <entry key="../../../../layout/compose-model-1654384207199.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/ic_baseline_border_color_24.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/icon_notes.xml" value="0.1745" />
+        <entry key="app/src/main/res/drawable/icon_pen.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/icon_raf.xml" value="0.1745" />
+        <entry key="app/src/main/res/drawable/note_border.xml" value="0.5992135620117187" />
+        <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.28090565999348954" />
+        <entry key="app/src/main/res/layout/activity_app.xml" value="0.267793709891183" />
+        <entry key="app/src/main/res/layout/activity_edit_note.xml" value="0.23645935058593748" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10625" />
+        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_statistics.xml" value="0.206024169921875" />
+        <entry key="app/src/main/res/layout/note_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/raf_data_item.xml" value="0.31556549072265627" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

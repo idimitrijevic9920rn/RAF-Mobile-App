@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".presentation.activities.EditNoteActivity">
+
+    <EditText
+        android:id="@+id/inputEditNoteTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="Note title"
+        />
+
+    <EditText
+        android:id="@+id/inputEditNoteContent"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:hint="Note content"
+        android:lines="20"
+        app:layout_constraintTop_toBottomOf="@id/inputEditNoteTittle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnIzmeni"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Izmeni"
+        app:layout_constraintStart_toEndOf="@id/btnOdustani"
+        app:layout_constraintTop_toBottomOf="@id/inputEditNoteContent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <Button
+        android:id="@+id/btnOdustani"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Odustani"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputEditNoteContent"
+        app:layout_constraintEnd_toStartOf="@id/btnIzmeni"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

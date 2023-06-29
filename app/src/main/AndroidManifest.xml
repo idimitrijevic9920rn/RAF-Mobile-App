@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rs.raf.projekat2.ilija_dimitrijevic_rn9920">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".application.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rsrafprojekat2ilija_dimitrijevic_rn9920">
+        <activity
+            android:name=".presentation.activities.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".presentation.activities.StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.EditNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.AddNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.NotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.AppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.MainActivity"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>

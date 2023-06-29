@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".presentation.activities.NotesActivity">
+
+
+    <EditText
+        android:id="@+id/notesSearchBar"
+        android:layout_width="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Search by tittle content.."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Switch
+        android:id="@+id/notesSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/notesSearchBar"
+        app:layout_constraintTop_toTopOf="@id/notesSearchBar"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNotes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toBottomOf="@id/notesSearchBar"
+        app:layout_constraintBottom_toTopOf="@id/btnAddNote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <ImageView
+        android:id="@+id/btnAddNote"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/icon_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <ImageView
+        android:id="@+id/btnSchedule"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/icon_raf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/btnStatistics"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/icon_statistics"
+        app:layout_constraintStart_toEndOf="@id/btnSchedule"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
